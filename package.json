@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start"
   },
   "keywords": [],
@@ -20,10 +20,10 @@
     "react-markdown": "8.0.0"
   },
   "devDependencies": {
-    "@types/node": "17.0.14",
-    "@types/react": "17.0.38",
+    "@types/node": "^18.19.21",
+    "@types/react": "^18.2.61",
     "prisma": "^5.10.2",
-    "typescript": "4.5.5",
+    "typescript": "^5.3.3",
     "vercel": "^33.5.3"
   }
 }
